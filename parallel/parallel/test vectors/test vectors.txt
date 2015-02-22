@@ -1,0 +1,350 @@
+outlen:          {20,32,64}
+password hex:    70617373776f7264
+salt hex:        73616c74
+t_cost:          0x00000
+m_cost:          0
+parallel-SHA1:   3f0c6677510a503263202cb5006edf9ea50c3008
+parallel-SHA256: 24b27fb11dd3fc1552f7ba57f7480effcace4a9ae962b011c693aed764f409f8
+parallel-SHA512: 6ee2fc021128a12b421606081687c7a5f17079400895a810ba4dffce1c5e4952a2c6ee370d7955bf9e479087405525dbdc62901e2851fd78ef4c42a8e2b8842d
+
+outlen:          16
+password hex:    70617373776f7264
+salt hex:        73616c74
+t_cost:          0x00000
+m_cost:          0
+parallel-SHA1:   3f0c6677510a503263202cb5006edf9e
+parallel-SHA256: 24b27fb11dd3fc1552f7ba57f7480eff
+parallel-SHA512: 6ee2fc021128a12b421606081687c7a5
+
+outlen:          {20,32,64}
+password hex:    70617373776f726470617373776f7264
+salt hex:        73616c74
+t_cost:          0x00001
+m_cost:          0
+parallel-SHA1:   440cfcc0103982dc2cc3f4a1da2fba23590f8fbc
+parallel-SHA256: 89081e7a70af822a6fc7aa7a70c9bea6d394be0cbc8088ab28a0b55e1b544c93
+parallel-SHA512: f4d585e997d8de0b30585e4e268c4a1f67527b70d51447720232027307fd082d928d722cc4f5bef566b75bdb3ea741df9e9bf57256e3a87ab7a6e7472549fa57
+
+outlen:          {20,32,64}
+password hex:    70617373776f7264
+salt hex:        73616c7473616c74
+t_cost:          0x00001
+m_cost:          0
+parallel-SHA1:   f2c6b69c17a2c91c67ba6e49c3b459b82f0aa2b2
+parallel-SHA256: 0dfa803551ea284983e8bf4f12b7203768570884a3ff07d7b7e5f0defde2a320
+parallel-SHA512: 34b17c2e9e217da290a66299caa7081d85b2a8faeebe4e0629d845f79f6b608ac40ac8bbee3e477fdec7672957e5960f8512c7c4e2e5c0b523afadfead5e426f
+
+outlen:          {20,32,64}
+password hex:    70617373776f7264
+salt hex:        73616c74
+t_cost:          0x00001
+m_cost:          0
+parallel-SHA1:   5ffd0f8cbcc199b324af9c0454b1c19a0d0dd4f2
+parallel-SHA256: 546614006457068bd21c0db74dace85dfe62e54941545c06269cc1d83dcb7b9a
+parallel-SHA512: 13528220310eb5bd3f91abf322a50b7846a90a67c83d2515a2d19fdf7c1dc227a8fadab0b81960357556255ccfc8306265b0d0b94bfe1b9530844effafdc86a2
+
+outlen:          {20,32,64}
+password hex:    70617373776f7264
+salt hex:        73616c74
+t_cost:          0x00002
+m_cost:          0
+parallel-SHA1:   7d4de8439fb7c3967a40a6264edc6765dadef3d1
+parallel-SHA256: c2a96035fdae172321466a26e9b62c5ce0d5b67a036660f2b478b0ba7097d6fd
+parallel-SHA512: e1085b1a23f7f8d174ebd3d650e783d6a2b5880890cef82817b69ee5e82dbe3a9aec46925d26b4eab45fa3a3b6034e9c7a6669772d71259737d5f0bad5060113
+
+outlen:          {20,32,64}
+password hex:    70617373776f7264
+salt hex:        73616c74
+t_cost:          0x00003
+m_cost:          0
+parallel-SHA1:   929363eb63087266ee9360c486db184bddf4257c
+parallel-SHA256: a33d758aa33620a8d75a3ef7ca469303aa720baa23d49d3eeac226a9ab910c64
+parallel-SHA512: e210bcdc45b17f4a3751358f5f7b23fe0e70124e49b3a6be7204a047c7afba45febd59848e16dd4899043b9d40fe387865412c167dfb955d0a08c026ba424416
+
+outlen:          {20,32,64}
+password hex:    70617373776f7264
+salt hex:        73616c74
+t_cost:          0x00004
+m_cost:          0
+parallel-SHA1:   893d4c751920de3916fe70994e9d51d709a71c96
+parallel-SHA256: ae864776a7452edb57f4dbf9127684cda7047385a94f0cd331289e439635cca6
+parallel-SHA512: 7af24e632c782720c403b69b26b21ac81637c8184b03d9bb6c40429d0dfcc264a4107e0b78c0e49d949c1bb59b5185bf52cb57dd75b52b11d8bba75f7c0857e5
+
+outlen:          {20,32,64}
+password hex:    70617373776f7264
+salt hex:        73616c74
+t_cost:          0x10001
+m_cost:          0
+parallel-SHA1:   bbcc32deaad70b8a1e669a9dc14da7cf55953297
+parallel-SHA256: 0090f1e4326ec3e3532b8b37b522cd966346b5b6392e093b9e1f55f0e0314955
+parallel-SHA512: 311067ac5bc5ee60eea892e3cac337d83dbf1917402aeca13e71de4a4beb94a88e698a011f258deb2738793465d898d104b2fb0eba006acc2699457a75b467c0
+
+outlen:          {20,32,64}
+password hex:    70617373776f7264
+salt hex:        73616c74
+t_cost:          0x20002
+m_cost:          0
+parallel-SHA1:   f4ab48b5766d8b171c3a85f896b6aec40dae4b95
+parallel-SHA256: 306c07e915ee330c0ca496f24bfbe65f7cf8968ed5936a394a5d798199fb7c26
+parallel-SHA512: ce0fecf0c89c7d14b55640cb49854e25b550e531554c0986a8c4bd904327f5f10fdae59c8b887c380cc1da9d4620c3196303dedade0885e8342af7fa6ddd6e2e
+
+outlen:          {20,32,64}
+password hex:    70617373776f7264
+salt hex:        73616c74
+t_cost:          0x30003
+m_cost:          0
+parallel-SHA1:   9ee77257c44c088386f8cd8f130826f3d99011c6
+parallel-SHA256: c88c9c19752e65b634ef4cbbf9c72f7a4c8fae793c3c518abc447e08da04443c
+parallel-SHA512: cd9378826e7cc6f3ffb7b14db338c2e45885974cb94858d7f6d9fe2e8447230ee4f6dbc32ea347288fae99a3b4496ba749c3e49e95f2ad2e0247e393f6c3c130
+
+outlen:          {20,32,64}
+password hex:    70617373776f7264
+salt hex:        73616c74
+t_cost:          0x40004
+m_cost:          0
+parallel-SHA1:   f90ebac1964b0eb048bd2963db894e2da5be7cb9
+parallel-SHA256: b912a72eb089f9a85bfd5304c8313dc040fe3544fda904152ddc530023671f97
+parallel-SHA512: 862a224daa334132e42f0fe0af1d141e9c6b4e3079bb73c01deabe88cc1ea3327199050acdcdd622db8540441b8facc624f1b609545cec1b1b3e37c6c838c52a
+
+outlen:          {20,32,64}
+password hex:    ff00
+salt hex:        80
+t_cost:          0x00000
+m_cost:          0
+parallel-SHA1:   74ca69580e0d8600cb0cb1b983639b783101ebe2
+parallel-SHA256: 0d8768614d5a37f5c04d6c0c2012344225b2a3d20a4bd22d879a2feef1388c69
+parallel-SHA512: 8092a4bb2029cac58cb9962b4ad6e9e16e19f74975831d116302ada65b81234750442b32f3bafe10b078501ef8cb970ef87adcae8cd4f29a9bb7842b0d66affe
+
+outlen:          {20,32,64}
+password hex:    ff00
+salt hex:        80
+t_cost:          0x10001
+m_cost:          0
+parallel-SHA1:   3820e82c2492f5b0f01d1851e5494f8442229d83
+parallel-SHA256: d969650d16d0b3ba36ff56a346e1cb5225945edbb9fdb91a716f107315616dce
+parallel-SHA512: e4d7b4d4328776509eebbfee64dfba41b6aacc6bb12ee434ffd1ec6f7bfdff15831f99d8e540e8bf9aadebf867b435d92729ac1dca5741dabf93fbccc0b1e47e
+
+outlen:          {20,32,64}
+password hex:    ff00
+salt hex:        80
+t_cost:          0x20002
+m_cost:          0
+parallel-SHA1:   15e8635904cf87f19cb7bb5d8825ee5bbeab0cb9
+parallel-SHA256: 06e4aed9da618f5e95006e89e0618e8d61dc53e7a86eecc62bf4542b5370528c
+parallel-SHA512: 4d56e6489cabeec86b42cad63d6b18de6a37eb4305708941ec4479d9d8162bee432c702ddaf5d350e0671955bbebeb2f0ba5969487e4ce55faac69b6173affba
+
+outlen:          {20,32,64}
+password hex:    ff00
+salt hex:        80
+t_cost:          0x30003
+m_cost:          0
+parallel-SHA1:   eccf4f5e52e1dcea7603fefff26931d8a8a01a78
+parallel-SHA256: 1777e7671b0150b625054a092835ac6efd63cd24f1c6825afa8eaa4287c19f58
+parallel-SHA512: dc952a499d980c89f5eb874a202dae27a0c33bcf5317f9c57dc99220d76a18fca77b88782e2bdaafc24681df90b531b488c40c3f365c8e9433930cd9c7a011d9
+
+outlen:          {20,32,64}
+password hex:    
+salt hex:        
+t_cost:          0x00002
+m_cost:          0
+parallel-SHA1:   6e6469aceb53f483a523441a0559335394bbda85
+parallel-SHA256: 29100400afc0c7e4be66cb058256f9f9bc4b12bca5c7c34b8495089d6755e07c
+parallel-SHA512: cecd79a28aca23ef1c140a9ad2c23898906d8b24ac1395cf2f6a6615ae98caaca079c32ea654aa7bcb4d9ef3f4eeca11c4ad5c389b81f2484a91588600ece204
+
+outlen:          {20,32,64}
+password hex:    00
+salt hex:        00
+t_cost:          0x00002
+m_cost:          0
+parallel-SHA1:   502237f43f504bef6ef3ef2de28bef2785662922
+parallel-SHA256: 9a357e22a71c35152df2086a596d53b818344689f2938dd836620018db5a7e47
+parallel-SHA512: f1b2fdcfc11954e8b4837fee2533e879032f517d0165b7d4f45eac9a3f8864486e8945c209ca1a021f662d8124f8551f19f78996b1d3fa4305cdd69a5b656c49
+
+outlen:          {20,32,64}
+password hex:    0001
+salt hex:        0100
+t_cost:          0x00002
+m_cost:          0
+parallel-SHA1:   cea0bebc5fc3df054cabf4f804acd17e6aa158ee
+parallel-SHA256: 00b30a5b5e3dd466d36460cdda2d92f7d073449dd2fcfca5170e18e52dbcac42
+parallel-SHA512: 680fc6cbb811e00b4b25d2b64d49848be3ecdfbec0c57fb22ec587175fc8d5e75446965ba67900b82d71a76e53e46f8d0a15fc6866078beaa8c859374bb48078
+
+outlen:          {20,32,64}
+password hex:    000102
+salt hex:        020100
+t_cost:          0x00002
+m_cost:          0
+parallel-SHA1:   459c04fa9c03f5f39b6df66f78f94147959318bb
+parallel-SHA256: d0eddabf7c8d74d7b0482feca228b6be6c1280e5c17d750d83221ee8f0612092
+parallel-SHA512: 9ecb960776fc2cefa56884c60433b7b49924306935f2b9b489e422a9d52097ad3a5005c5999fe43967cfa5d824013bf192ae501784ef0039ba3ff365bceaef32
+
+outlen:          {20,32,64}
+password hex:    00010203
+salt hex:        03020100
+t_cost:          0x00002
+m_cost:          0
+parallel-SHA1:   b90510174198a6986018398468f7e3f8aaf325c6
+parallel-SHA256: c73bbc8f7edca77678818baa29c73b08e8bec1d93a0be2c2f37e38dae62d8571
+parallel-SHA512: 93427213be658514461d7fc185bd4c047817b5b9dae51c6dcc5bcb903a8a463be8f5bc2f428e65316d15b0c833315960aee13b644292f54c200e173aff46c4ed
+
+outlen:          {20,32,64}
+password hex:    0001020304
+salt hex:        0403020100
+t_cost:          0x00002
+m_cost:          0
+parallel-SHA1:   7e63966ee27f5a299da2d023e37f5c4d6d727a11
+parallel-SHA256: c4669e8b899080170f71233bf9cb3525e3612d31faece1d359c3c6652c228741
+parallel-SHA512: fb36b7dafd3f247be543250abd8e1f99ce16f226bcce98e957759ad62783cdbe932b830a1b1f219ed4d52fb801a7882ba0d7b95418d9742863d279e4a3e32978
+
+outlen:          {20,32,64}
+password hex:    000102030405
+salt hex:        050403020100
+t_cost:          0x00002
+m_cost:          0
+parallel-SHA1:   fa09cf92981df60fc8afc62db989840848dbabfb
+parallel-SHA256: cd1be2a5d2a006c8af67ea24be4f78406fba5e1dc5f2d89f1c7313321c56d64a
+parallel-SHA512: dc45f038da4e02f7c4850c7caf4e8bfab0b01604f5bb1c4364be19196657c77f4ab2866680f6beab413d3091e904675ff9e3e3791aae1f3452315bf564ba4acc
+
+outlen:          {20,32,64}
+password hex:    00010203040506
+salt hex:        06050403020100
+t_cost:          0x00002
+m_cost:          0
+parallel-SHA1:   f594c8e70766cc2d2ecaeaebeb3fd3043b1f7d92
+parallel-SHA256: 7c8eaf0f7b0dc99148c751ae56356e65478dcaedcdd5bd8de75b42bb410fd71a
+parallel-SHA512: cf5549a2f012e1ccaa34e8e76842c275559dbd576548a6fabf3635f54787b1b61320cbadf86275dc58d5f8ea1ee228c2b93911025ae7b320574e0fa57e5b869a
+
+outlen:          {20,32,64}
+password hex:    0001020304050607
+salt hex:        0706050403020100
+t_cost:          0x00002
+m_cost:          0
+parallel-SHA1:   7f97719e03d33d75f42b43296bd5992e5355832f
+parallel-SHA256: 2e408510848f1eba770075cd2347e5ab271390b0722ae9302480a84d6aba3f75
+parallel-SHA512: 35f0b073316d3632fee42cd7a7cf87c72786cb0ad2899f3cf983c329ea029b87cfedd9ace3c67de3fff73123a91e67f9ff800d10f34dc20e6491eec6a4100cef
+
+outlen:          {20,32,64}
+password hex:    000102030405060708
+salt hex:        080706050403020100
+t_cost:          0x00002
+m_cost:          0
+parallel-SHA1:   c95c78687451a860d887631ca571d692f7f10fba
+parallel-SHA256: b1ec1dd135a3a5c00e6e769fe996815346cd64db62763da9f7299230544c625b
+parallel-SHA512: 96c4a3774d69618fcfada8fb0a4704d0b33ea9ac7873533164e344270a0a8612544d44276b8d47b02f9256403fbcabec8aed082cd46aa9e93fcc091c94a18dfb
+
+outlen:          {20,32,64}
+password hex:    00010203040506070809
+salt hex:        09080706050403020100
+t_cost:          0x00002
+m_cost:          0
+parallel-SHA1:   87240f6b827d0a330566fd3cd5839efd489b3386
+parallel-SHA256: ff09bf685d395d16562c5b74d5b57b0b3545017f689118d0196e384612beacb0
+parallel-SHA512: 1e609320ec6311830b9be4b21a39706b7d528c6cdb406f9107f9c3eeb4448799ec45efc3db6013fcaa4f4b3f53edbdcdcbed231770f120077f3b4c5e58b94533
+
+outlen:          {20,32,64}
+password hex:    000102030405060708090a
+salt hex:        0a09080706050403020100
+t_cost:          0x00002
+m_cost:          0
+parallel-SHA1:   d90d3cbcb0cd40a94ee82c3296d677d36a878acf
+parallel-SHA256: fb6be8feb6c68829851a1f9907b7e58932488b6598c16a32e3f08b508694bbbf
+parallel-SHA512: 7533fa40c5d7c9cbf526e67ec80e878dfb04e2919a084a925fe25eb654543b3636f0d56458be3d8d650a0913778c8118926891eee632254ec67411d6f12ddbd0
+
+outlen:          {20,32,64}
+password hex:    000102030405060708090a0b
+salt hex:        0b0a09080706050403020100
+t_cost:          0x00002
+m_cost:          0
+parallel-SHA1:   93e57d4755acad82584dd8501b8b02cca3e65251
+parallel-SHA256: 20b4c53d7367d35b9c9f7832e5d186bbd406f0150bec8fa7e790cccb08b1f463
+parallel-SHA512: 736e16ef60be0e188dd7d077661368fe7be7b69653be2f1cecfc287a98e29cd7e69e0d10361a1796e39b5c0c75be0ba438955b0194afa0bcc0b4aaca25cb2c55
+
+outlen:          {20,32,64}
+password hex:    000102030405060708090a0b0c
+salt hex:        0c0b0a09080706050403020100
+t_cost:          0x00002
+m_cost:          0
+parallel-SHA1:   8aaad6e5b63e8a41174474eac3daeae0c3648726
+parallel-SHA256: 267583854b87bd478d2793e7cc7c74c57e705cc9d7696678c3b0426438c4bd65
+parallel-SHA512: 58b528146163928828439480a4286bb1abf8866e809683a3ddb70c765a2a16eba2640847b47781fe68172375e504f33eb57433d33016fb669ee9d7d14d362811
+
+outlen:          {20,32,64}
+password hex:    000102030405060708090a0b0c0d
+salt hex:        0d0c0b0a09080706050403020100
+t_cost:          0x00002
+m_cost:          0
+parallel-SHA1:   30210ac1753227e7c489e5d786b431bea8c1bb3c
+parallel-SHA256: 12d52f1602285343e5308cff8f79e5d420f57b2fc33dfdfefc886dae262f03fa
+parallel-SHA512: 8cf73ccb5796a6382244cddb12207e7fda49b122a17bef45b490a4e22a8950f93abcdc9f7dd1b8f19b35a7688f84a7ab5c62c39c6b5520604fb79e238f06a48a
+
+outlen:          {20,32,64}
+password hex:    000102030405060708090a0b0c0d0e
+salt hex:        0e0d0c0b0a09080706050403020100
+t_cost:          0x00002
+m_cost:          0
+parallel-SHA1:   a497e025440d00a2c1a7ec69ee72e9ab45cafe9e
+parallel-SHA256: bcc24eb7b6da6158f1de28c8010d47c625b80592b81311f49eab62817d75897a
+parallel-SHA512: c0fb71ce7ae7dd4eaad4324bae411d20cf3a1cd374a24153e8a0185017b851ca58e30533cfeb6201d03688e251b67d10a546a5443e93367905fb044b6eebe419
+
+outlen:          {20,32,64}
+password hex:    000102030405060708090a0b0c0d0e0f
+salt hex:        0f0e0d0c0b0a09080706050403020100
+t_cost:          0x00002
+m_cost:          0
+parallel-SHA1:   3fc18f1f86fa13f8c8f2c805a59c9a4e9c3b6d4d
+parallel-SHA256: 2a24599adc04b46f9f687c9704e8d99f29c72ed8916a6d6c2554c04d8b9bf3a9
+parallel-SHA512: ce11c464f6dcdaa0647f47887f64290f9b12d48da8fe3f51fd83d004d202a94e1a579563efa9dba1d800e9057db5dbf995917cc26f8f4369e87d8ae7ff016603
+
+outlen:          {20,32,64}
+password hex:    000102030405060708090a0b0c0d0e0f10
+salt hex:        100f0e0d0c0b0a09080706050403020100
+t_cost:          0x00002
+m_cost:          0
+parallel-SHA1:   d146ab4a945cec354ed3f43dd5be79feb3d60306
+parallel-SHA256: 0ee6d74059877cb7f679ad4a629527490e8144a488438d8616adb65ec207d7cc
+parallel-SHA512: 5df342069e551ea0461a2bfb023a39ce01089226091d1307c2194f65309257819cc48a1a64326ad5b85871b54143e83e365ef736f72252b5a07c0aa044a41859
+
+outlen:          {20,32,64}
+password hex:    000102030405060708090a0b0c0d0e0f1011
+salt hex:        11100f0e0d0c0b0a09080706050403020100
+t_cost:          0x00002
+m_cost:          0
+parallel-SHA1:   d3b460d1a88e108b4e68254558f4dc00d1980911
+parallel-SHA256: 93a1e09f8f05caa3931112bff7668e1afab692d361d4bc25cc90273e3471fc98
+parallel-SHA512: fc19f898e248058e426d766f22b1763cb2f764cb4a3a9dc3d6785b53e2c1987f3d0fc25d7d9f34046d5b805f7229c58f3d5eb945277006eff6d9d4daf3f9f458
+
+outlen:          {20,32,64}
+password hex:    000102030405060708090a0b0c0d0e0f101112
+salt hex:        1211100f0e0d0c0b0a09080706050403020100
+t_cost:          0x00002
+m_cost:          0
+parallel-SHA1:   a42d629be1ebe77425d282c7a3afb2f6791e77b9
+parallel-SHA256: 6ecd83eabbf154d6995d0df966c4ed4f086245042799fa68d21ebfd426dffb0d
+parallel-SHA512: 00029965fea93f6af22e12c27ef42f388938a19b36b9a517da63784a00df1327ecbdad8dbc204cc91a2c1ba0a4d6c3187f0d6031daef435da88c25e46ce2d7a5
+
+outlen:          {20,32,64}
+password hex:    000102030405060708090a0b0c0d0e0f10111213
+salt hex:        131211100f0e0d0c0b0a09080706050403020100
+t_cost:          0x00002
+m_cost:          0
+parallel-SHA1:   f2d4818465b4320e72dcac72bccc929783cd4fb5
+parallel-SHA256: 48e4a97e32232f0ff096e68988ce334d153b956c2def01fae9ec7d9a6d99d2e2
+parallel-SHA512: b1adcc71ee73721ba071403d51fd3063bd4d913ec795a13fe61a8a00e66c897dd899177389ddc4d66b2e3e13d511d22940a81da86c031d9740e817c187e501c2
+
+outlen:          {20,32,64}
+password hex:    000102030405060708090a0b0c0d0e0f1011121314
+salt hex:        14131211100f0e0d0c0b0a09080706050403020100
+t_cost:          0x00002
+m_cost:          0
+parallel-SHA1:   81da3cb7ebeed1215832a66ff7230fc94a834b98
+parallel-SHA256: 918f22de7f490987ae8519679527bc0c6e01048ce3376f6a7a6378a47ced881a
+parallel-SHA512: e9b03c5fcbd902b8994619fe86d29877a52cd07b091cc592e35116bf2d8dccc2dddde7a88b6b7414a13d60a7228f79f7870315b7ba067cad190ed88d6366e04b
+
+outlen:          {20,32,64}
+password hex:    000102030405060708090a0b0c0d0e0f101112131415
+salt hex:        1514131211100f0e0d0c0b0a09080706050403020100
+t_cost:          0x00002
+m_cost:          0
+parallel-SHA1:   e5ca22cb1b24992db422df9e05c86663976295af
+parallel-SHA256: ae655fed6e536171d0f4eee42c251b4fdf8927083932fcea875d026f76fcf11e
+parallel-SHA512: 5fbd2515e58727fd0f48ca99ab2afb407439db61b7f231625e4f175d226ebd8cd5ca6f7aa53a0def1de81fdfd8bccc5e16a1711154f99f231165ada48f984c59
