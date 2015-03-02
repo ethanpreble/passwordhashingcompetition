@@ -73,7 +73,7 @@ int main()
 {
 
 clock_t start = clock(), diff;
-simpletest("passwordpasswordpasswordpassword", "saltsaltsaltsalt","datadatadatadata", 10, 20);
+simpletest("passwordpasswordpasswordpassword", "saltsaltsaltsalt","datadatadatadata", 2, 20);
 
 
 diff = clock() - start;
