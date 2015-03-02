@@ -18,15 +18,16 @@ void printHash(uint64_t *hash)
 		WRITE_BIG_ENDIAN_64(hash[7]));
 }
 
-void benchmark(unsigned int t_cost, unsigned int m_cost)
+void benchmark(const void *in, size_t inlen, const void *salt, size_t saltlen, unsigned int t_cost, unsigned int m_cost)
 {
 	uint64_t out[8];
 	TIMER_TYPE s, e;
 
 	TIMER_FUNC(s);
-	PHS(out, sizeof(out), "password", 8, "salt", 4, t_cost, m_cost);
+	PHS(out, sizeof(out), in, inlen, salt, saltlen, t_cost, m_cost);
 	TIMER_FUNC(e);
-	printf("battcrypt t:% 2u, m:% 2u: %0.4f ms\n", t_cost, m_cost, 1000.0 * TIMER_DIFF(s, e));
+	printf("battcrypt pass: %s salt: %s t:% 2u, m:% 2u: %0.4f ms\n", in, salt, t_cost, m_cost, 1000.0 * TIMER_DIFF(s, e));
+	// printHash(out);
 }
 
 int main()
@@ -34,20 +35,24 @@ int main()
 	uint64_t out[8];
 
 	PHS(out, sizeof(out), "password", 8, "salt", 4, 0, 0);
+	printf("hash: ");
 	printHash(out);
-	printf("?==?\ne22441865a5405c2bbe84a4d6e025133595042886125989fafcf409493638d66\n0803f13cc0fff9e902b3a017cb5b7bceb52ac404be77828dac531f01a25d17da\n\n");
 
-	benchmark(1, 3);
-	benchmark(1, 4);
-	benchmark(1, 5);
-	benchmark(1, 6);
-	benchmark(1, 7);
-	benchmark(1, 8);
-	benchmark(1, 9);
-	benchmark(1,10);
-	benchmark(1,11);
-	benchmark(1,12);
-	benchmark(1,13);
-	getchar();
+	for(int t_cost = 1; t_cost <= 13; t_cost++) {
+		benchmark("passwordpasswordpasswordpassword", 32, "saltsaltsaltsalt", 16, t_cost, 3);
+	}
+
+	// benchmark("password", 8, "salt", 4, 1, 3);
+	// benchmark("password", 8, "salt", 4, 1, 4);
+	// benchmark("password", 8, "salt", 4, 1, 5);
+	// benchmark("password", 8, "salt", 4, 1, 6);
+	// benchmark("password", 8, "salt", 4, 1, 7);
+	// benchmark("password", 8, "salt", 4, 1, 8);
+	// benchmark("password", 8, "salt", 4, 1, 9);
+	// benchmark("password", 8, "salt", 4, 1, 10);
+	// benchmark("password", 8, "salt", 4, 1, 11);
+	// benchmark("password", 8, "salt", 4, 1, 12);
+	// benchmark("password", 8, "salt", 4, 1, 13);
+
 	return 0;
 }
